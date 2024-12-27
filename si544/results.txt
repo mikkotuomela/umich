@@ -1,0 +1,165 @@
+Total emails:  20151
+Spam emails:   18522
+Country known: 15752
+
+1. US (United States) - 2499
+2. IN (India) - 2128
+3. VN (Viet Nam) - 916
+4. RU (Russian Federation) - 895
+5. KR (Korea, Republic of) - 894
+6. BR (Brazil) - 538
+7. RO (Romania) - 523
+8. ID (Indonesia) - 508
+9. CN (China) - 508
+10. PH (Philippines) - 390
+11. UA (Ukraine) - 332
+12. TW (Taiwan, Province of China) - 297
+13. PL (Poland) - 275
+14. RS (Serbia) - 273
+15. PK (Pakistan) - 268
+16. IT (Italy) - 267
+17. CO (Colombia) - 213
+18. PE (Peru) - 203
+19. BY (Belarus) - 174
+20. ES (Spain) - 171
+21. MA (Morocco) - 162
+22. SA (Saudi Arabia) - 161
+23. AR (Argentina) - 159
+24. DE (Germany) - 158
+25. KZ (Kazakhstan) - 140
+26. IL (Israel) - 128
+27. CL (Chile) - 122
+28. BG (Bulgaria) - 108
+29. IR (Iran, Islamic Republic of) - 105
+30. FR (France) - 91
+31. TH (Thailand) - 82
+32. MX (Mexico) - 73
+33. DZ (Algeria) - 70
+34. TR (Turkey) - 70
+35. MY (Malaysia) - 70
+36. DO (Dominican Republic) - 63
+37. SG (Singapore) - 63
+38. AE (United Arab Emirates) - 62
+39. ZA (South Africa) - 59
+40. GB (United Kingdom) - 54
+41. TN (Tunisia) - 48
+42. PS (Palestinian Territory, Occupied) - 48
+43. CZ (Czech Republic) - 48
+44. KW (Kuwait) - 46
+45. LK (Sri Lanka) - 45
+46. MK (Macedonia, The Former Yugoslav Republic of) - 45
+47. GR (Greece) - 44
+48. JP (Japan) - 40
+49. BD (Bangladesh) - 40
+50. FI (Finland) - 36
+51. HK (Hong Kong) - 34
+52. LY (Libyan Arab Jamahiriya) - 32
+53. NL (Netherlands) - 30
+54. PT (Portugal) - 29
+55. UY (Uruguay) - 29
+56. SK (Slovakia) - 28
+57. VE (Venezuela, Bolivarian Republic of) - 27
+58. KH (Cambodia) - 27
+59. LT (Lithuania) - 27
+60. CM (Cameroon) - 23
+61. AT (Austria) - 22
+62. HU (Hungary) - 22
+63. AU (Australia) - 21
+64. ME (Montenegro) - 20
+65. GT (Guatemala) - 20
+66. PR (Puerto Rico) - 19
+67. LB (Lebanon) - 19
+68. BO (Bolivia, Plurinational State of) - 19
+69. ET (Ethiopia) - 19
+70. NZ (New Zealand) - 18
+71. AZ (Azerbaijan) - 16
+72. EC (Ecuador) - 16
+73. TZ (Tanzania, United Republic of) - 16
+74. MN (Mongolia) - 15
+75. CA (Canada) - 15
+76. KE (Kenya) - 15
+77. SI (Slovenia) - 15
+78. CR (Costa Rica) - 15
+79. IQ (Iraq) - 15
+80. UZ (Uzbekistan) - 14
+81. SD (Sudan) - 14
+82. NG (Nigeria) - 13
+83. HN (Honduras) - 13
+84. QA (Qatar) - 13
+85. AO (Angola) - 12
+86. SE (Sweden) - 12
+87. PA (Panama) - 12
+88. MU (Mauritius) - 12
+89. CH (Switzerland) - 12
+90. NP (Nepal) - 11
+91. SV (El Salvador) - 10
+92. EG (Egypt) - 10
+93. LV (Latvia) - 10
+94. HR (Croatia) - 10
+95. TT (Trinidad and Tobago) - 10
+96. SR (Suriname) - 9
+97. BE (Belgium) - 8
+98. BH (Bahrain) - 8
+99. JO (Jordan) - 8
+100. IE (Ireland) - 8
+101. NA (Namibia) - 7
+102. LA (Lao People's Democratic Republic) - 7
+103. HT (Haiti) - 7
+104. MD (Moldova, Republic of) - 7
+105. TJ (Tajikistan) - 6
+106. BF (Burkina Faso) - 6
+107. GA (Gabon) - 6
+108. BA (Bosnia and Herzegovina) - 6
+109. GE (Georgia) - 6
+110. MZ (Mozambique) - 6
+111. CY (Cyprus) - 6
+112. DJ (Djibouti) - 5
+113. AM (Armenia) - 5
+114. CI (Cote d'Ivoire) - 5
+115. LU (Luxembourg) - 5
+116. AW (Aruba) - 5
+117. TG (Togo) - 5
+118. BS (Bahamas) - 5
+119. EE (Estonia) - 4
+120. KG (Kyrgyzstan) - 4
+121. CD (Congo, The Democratic Republic of the) - 3
+122. ZW (Zimbabwe) - 3
+123. RW (Rwanda) - 3
+124. NO (Norway) - 3
+125. CF (Central African Republic) - 3
+126. BJ (Benin) - 3
+127. OM (Oman) - 3
+128. AL (Albania) - 3
+129. GH (Ghana) - 3
+130. SZ (Swaziland) - 2
+131. ZM (Zambia) - 2
+132. BW (Botswana) - 2
+133. MP (Northern Mariana Islands) - 2
+134. LS (Lesotho) - 2
+135. TM (Turkmenistan) - 2
+136. NC (New Caledonia) - 2
+137. GM (Gambia) - 2
+138. MV (Maldives) - 2
+139. SN (Senegal) - 2
+140. JE (Jersey) - 2
+141. DK (Denmark) - 2
+142. ML (Mali) - 2
+143. PY (Paraguay) - 2
+144. FJ (Fiji) - 2
+145. SY (Syrian Arab Republic) - 2
+146. PG (Papua New Guinea) - 1
+147. LC (Saint Lucia) - 1
+148. BT (Bhutan) - 1
+149. NE (Niger) - 1
+150. MR (Mauritania) - 1
+151. AF (Afghanistan) - 1
+152. GI (Gibraltar) - 1
+153. SB (Solomon Islands) - 1
+154. UG (Uganda) - 1
+155. GD (Grenada) - 1
+156. MO (Macao) - 1
+157. BI (Burundi) - 1
+158. KN (Saint Kitts and Nevis) - 1
+159. ER (Eritrea) - 1
+160. MW (Malawi) - 1
+161. BM (Bermuda) - 1
