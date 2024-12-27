@@ -10,9 +10,9 @@ use File::Slurp;
 
     my $positive_words;
     foreach my $line (@positive)  {
-	chomp($line);
-	my ($score, $word) = split(/\ /, $line);
-	$positive_words->{$word} = $score;
+        chomp($line);
+    	my ($score, $word) = split(/\ /, $line);
+    	$positive_words->{$word} = $score;
     }
     my $negative_words;
     foreach my $line (@negative)  {
