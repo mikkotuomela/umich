@@ -27,55 +27,55 @@ $| = 1;
     open (IN, FILE) or die "$!";
     while (my $line = <IN>) {
 
-	chomp($line);
-
-	# Divide the line into 1/0 and text
-	my ($result, $text) = split (/\t/, $line);
-
-	# Some easy fixes don't -> do not etc.
-	$text =~ s/can\'t/\cannot/g;
-	$text =~ s/don\'t/\do not/g;
-	$text =~ s/won\'t/\will not/g;
-	$text =~ s/haven\'t/\have not/g;
-
-	# Split the text into words
-	my @words = split (/\ /, $text);
-
-	# Go through every word
-	foreach my $word (@words) {
-
-	    # If this is a tweet, ignore tags completely
-	    next if substr($word, 0, 1) eq '@';
-
-	    # Too lazy to implement real skimming but this helps, too
-	    $word = lc($word);
-	    $word =~ s/\'s//;
-	    $word =~ s/[^\w]//g;
-	    $word =~ s/wanna/want\ to/;
-	    $word =~ s/sucks/suck/;
-	    $word =~ s/sucked/suck/;
-	    $word =~ s/sucking/suck/;
-	    $word =~ s/loved/love/;
-	    $word =~ s/liked/like/;
-	    $word =~ s/loving/love/;
-	    $word =~ s/motherfucking/fuck/;
-	    $word =~ s/fucking/fuck/;
-	    $word =~ s/fucked/fuck/;
-	    $word =~ s/fucks/fuck/;
-
-	    # Go to next word if there is nothing left of this word
-	    next unless $word;
-
-	    # Go to the next word if this word is in the remove list
-	    next if grep(/$word/, @remove);
-
-	    # Add this word into the results
-	    if ($result) {
-		$positive->{$word}++;
-	    } else {
-		$negative->{$word}++;
-	    }
-	}
+    	chomp($line);
+    
+    	# Divide the line into 1/0 and text
+    	my ($result, $text) = split (/\t/, $line);
+    
+    	# Some easy fixes don't -> do not etc.
+    	$text =~ s/can\'t/\cannot/g;
+    	$text =~ s/don\'t/\do not/g;
+    	$text =~ s/won\'t/\will not/g;
+    	$text =~ s/haven\'t/\have not/g;
+    
+    	# Split the text into words
+    	my @words = split (/\ /, $text);
+    
+    	# Go through every word
+    	foreach my $word (@words) {
+    
+    	    # If this is a tweet, ignore tags completely
+    	    next if substr($word, 0, 1) eq '@';
+    
+    	    # Too lazy to implement real skimming but this helps, too
+    	    $word = lc($word);
+    	    $word =~ s/\'s//;
+    	    $word =~ s/[^\w]//g;
+    	    $word =~ s/wanna/want\ to/;
+    	    $word =~ s/sucks/suck/;
+    	    $word =~ s/sucked/suck/;
+    	    $word =~ s/sucking/suck/;
+    	    $word =~ s/loved/love/;
+    	    $word =~ s/liked/like/;
+    	    $word =~ s/loving/love/;
+    	    $word =~ s/motherfucking/fuck/;
+    	    $word =~ s/fucking/fuck/;
+    	    $word =~ s/fucked/fuck/;
+    	    $word =~ s/fucks/fuck/;
+    
+    	    # Go to next word if there is nothing left of this word
+    	    next unless $word;
+    
+    	    # Go to the next word if this word is in the remove list
+    	    next if grep(/$word/, @remove);
+    
+    	    # Add this word into the results
+    	    if ($result) {
+    		    $positive->{$word}++;
+    	    } else {
+    		    $negative->{$word}++;
+    	    }
+    	}
     }
     close IN;
 
@@ -94,11 +94,11 @@ $| = 1;
     # Sort by score
     print "Sorting positive...";
     my @positive_sorted = sort { 
-	$positive->{$b} <=> $positive->{$a} } keys %$positive;
+	    $positive->{$b} <=> $positive->{$a} } keys %$positive;
     print "Done\n";
     print "Sorting negative...";
     my @negative_sorted = sort { 
-	$negative->{$b} <=> $negative->{$a} } keys %$negative;
+	    $negative->{$b} <=> $negative->{$a} } keys %$negative;
     print "Done\n";
 
     # Write data into files
