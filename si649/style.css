@@ -1,0 +1,19 @@
+body { 
+	background-color: black; 
+    background-image: url('library.jpg');
+	background-position: center;
+	color: white; 
+	background-size: cover;
+}
+div#status { 
+	width: 500px; 
+	height: 100px;
+	position: absolute; 
+	right: 5px; 
+	top: 5px; 
+	font-family: Courier;
+}
+body,div {
+    padding: 0px;
+    margin: 0px;
+}
